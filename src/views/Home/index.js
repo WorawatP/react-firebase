@@ -138,16 +138,16 @@ export default class Home extends Component {
                         {/* <input  /> */}
                     </div>
                     <div style={{ width: '18%' }}>
-                        <input value={this.state.name} onChange={e => this.setState({ name: e.target.value })} />
+                        <input placeholder="Name" value={this.state.name} onChange={e => this.setState({ name: e.target.value })} />
                     </div>
                     <div style={{ width: '18%' }}>
-                        <input  value={this.state.address} onChange={e => this.setState({ address: e.target.value })} />
+                        <input placeholder="Address"  value={this.state.address} onChange={e => this.setState({ address: e.target.value })} />
                     </div>
                     <div style={{ width: '8%' }}>
-                        <input  type="time" value={this.state.time} onChange={e => this.setState({ time: e.target.value })} />
+                        <input placeholder="Time"  type="time" value={this.state.time} onChange={e => this.setState({ time: e.target.value })} />
                     </div>
                     <div style={{ width: '15%' }}>
-                        <input value={this.state.order} onChange={e => this.setState({ order: e.target.value })} />
+                        <input placeholder="Order" value={this.state.order} onChange={e => this.setState({ order: e.target.value })} />
                     </div>
 
                     <div style={{ width: '12%' }}>
